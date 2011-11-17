@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">行人导航推算系统（Pedestrian Dead Reckoning System)</string>
+    <string name="startcount">启动计数服务</string>
+    <string name="stopcount">停止计数服务</string>
+    <string name="dataHandling">数据处理</string>
+    <string name="quit">退出程序</string>
+    <string name="accelerometerFileName">加速度传感器数据名称：</string>
+    <string name="orientationFileName">方向传感器数据名称：</string>
+    <string name="primitiveAccelerometerFileName">原始加速度传感器数据名称：</string>
+    <string name="CalculatingStepNum">计算行走步数</string>
+    <string name="AccelerationTransformation">加速度转换</string>
+</resources>
