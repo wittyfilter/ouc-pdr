@@ -1,0 +1,80 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=980, tid=6324
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00846c00):  JavaThread "Unknown thread" [_thread_in_vm, id=6324, stack(0x008e0000,0x00930000)]
+
+Stack: [0x008e0000,0x00930000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00846c00 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6324, stack(0x008e0000,0x00930000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\Program Files\Java\jre6\bin\javaw.exe
+0x7c920000 - 0x7c9b6000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91e000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee3000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77da0000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f39000 	C:\WINDOWS\system32\GDI32.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x7c340000 - 0x7c396000 	D:\Program Files\Java\jre6\bin\msvcr71.dll
+0x6d800000 - 0x6da56000 	D:\Program Files\Java\jre6\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d280000 - 0x6d288000 	D:\Program Files\Java\jre6\bin\hpi.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d7b0000 - 0x6d7bc000 	D:\Program Files\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	D:\Program Files\Java\jre6\bin\java.dll
+0x6d7f0000 - 0x6d7ff000 	D:\Program Files\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\Program Files\Android\android-sdk\platforms\android-7\android.jar 
+java_command: will.test.Test
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Program Files\Java\jdk1.6.0_10
+CLASSPATH=.;D:\Program Files\Java\jdk1.6.0_10\lib\dt.jar;D:\Program Files\Java\jdk1.6.0_10\lib\tools.jar;
+PATH=D:/Program Files/Java/jre6/bin/client;D:/Program Files/Java/jre6/bin;D:/Program Files/Java/jre6/lib/i386;D:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\Program Files\Java\jdk1.6.0_10\bin;D:\Program Files\Java\jdk1.6.0_10\jre\bin;D:\Matlab7\bin\win32;D:\Program Files\TortoiseSVN\bin;D:\Program Files\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 7 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2087148k(505324k free), swap 4029240k(1410584k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Mon Nov 28 09:30:16 2011
+elapsed time: 0 seconds
+
